@@ -1,0 +1,12 @@
+{
+  "name": "web-viewer",
+  "version": "1.0.0",
+  "description": "Web Viewer proxy server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

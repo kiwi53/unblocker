@@ -7,7 +7,7 @@ const path = require('path');
 const { URL } = require('url');
 const zlib = require('zlib');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Keep-alive agents for connection reuse
 const httpAgent = new http.Agent({ keepAlive: true, maxSockets: 64 });
